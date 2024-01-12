@@ -33,4 +33,5 @@ body:
       description: | 
         Share with us what makes this person a good candidate for the Fuel Developer Champions program. The more information you can provide the better we are able to evaluate your nomination.
       placeholder: Why is this person a rising star in the Fuel developer community?
-      required: true
+      validations:
+        required: true
