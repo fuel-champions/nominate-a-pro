@@ -1,0 +1,36 @@
+name: Pioneer Nomination
+description: Use this form to nominate someone as a Pioneer to the Fuel Developer Champions program.
+title: "[Nomination] : NAME OF NOMINEE"
+labels: ["nomination"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to submit a nomination for someone to the Fuel Developer Champions program as a Pioneer! Pioneers are developers who are starting their journey into Fuel and looking for a community to level up their skills with, and we are excited that you are nominating someone to join the program.
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out each section to the best of your ability. The more information you can provide the better we are able to evaluate your nomination.
+  - type: textarea
+    id: proof-of-code
+    attributes:
+      label: Proof of their code
+      description: Share with us the links to GitHub repos where they have been a code contributor for more than one instance to a merged pull request in the past three months in a web3 project, preferably but not exclusively a Fuel project.
+      placeholder: Add links to their code contribution(s) here.
+  - type: dropdown
+    id: ambassador-program
+    attributes:
+      label: Fuel Ambassador Program
+      description: Are they a current Fuel Ambassador?
+      options:
+        - "Yes, I'm a Fuel Ambassador"
+        - "No, I'm not a Fuel Ambassador"
+        - "I'm not sure"
+  - type: textarea
+    id: nomination-reason
+    attributes:
+      label: Reason for nomination
+      description: | 
+        Share with us what makes this person a good candidate for the Fuel Developer Champions program. The more information you can provide the better we are able to evaluate your nomination.
+      placeholder: Why is this person a rising star in the Fuel developer community?
+      required: true
